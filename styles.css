@@ -196,3 +196,19 @@ button {
 		flex-direction: column;
 	}
 }
+/* responshive for small device */
+@media only screen and (max-width: 768px) {
+	#histories {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
+
+/* responshive for medium device */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	#histories {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

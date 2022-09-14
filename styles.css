@@ -151,6 +151,7 @@ button {
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	justify-items: center;
+	text-align: center;
 }
 
 .card {
@@ -185,6 +186,9 @@ button {
 	width: 100%;
 	position: fixed;
 	top: 0;
+}
+.margin {
+	margin-bottom: 10px;
 }
 
 /* responshive for extra small device */

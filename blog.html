@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <style>
+        .box-container {
+            margin-top: 20px;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .box {
+            background-color: #cfd5db;
+            margin: 10px;
+            padding: 5px 15px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box-container">
+        <div class="box">
+            <h3>1. Difference between the local storage and session storage.</h3>
+            <p>The difference between localStorage and sessionStorage has to do with lifetime and scope: how long the
+                data is saved for and who the data is accessible to. Session storage is destroyed once the user closes
+                the browser whereas, Local storage stores data with no expiration date</p>
+        </div>
+        <div class="box">
+            <h3>Difference between the block scope and global scope.</h3>
+            <p><b>Block scope means local scope. Defference are:</b> JavaScript variables have only two scopes. <br>
+                <b>Global Variables - </b> A global variable has a global scope which means it can be
+                defined anywhere in your JavaScript code. <br> <b>Local Variables - </b> A local variable will be
+                visible only within a function
+                where it is defined. Function parameters are always local to that function.
+            </p>
+        </div>
+        <div class="box">
+            <h3>How work event loop?</h3>
+            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+                is empty, the
+                Event Loop will take the first event from the queue and will push it to the Call Stack, which
+                effectively runs it. Such
+                an iteration is called a tick in the Event Loop.</p>
+        </div>
+        <div class="box">
+            <h3>How we get undefine?</h3>
+            <p>Undefined is a primitive value in JavaScript. A variable or an object has an undefined value when no
+                value is assigned before using it. So you can say that undefined means lack of value or unknown value.
+                <br>
+                <b>Some scenarios of undefine is:</b>
+                Uninitialized variable, Accessing a non-existing property, Function parameters, Function return value,
+                void operator
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
